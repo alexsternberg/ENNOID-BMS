@@ -21,7 +21,6 @@ _autosave-*
 *.csv
 
 # PCB files
-*.kicad_pcb
 *.gbr
 *.drl
 *.zip
