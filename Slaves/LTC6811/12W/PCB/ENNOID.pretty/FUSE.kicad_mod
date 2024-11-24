@@ -1,11 +1,79 @@
-(module "FUSE" (layer F.Cu) (tedit 5CC70CFC)
-  (fp_text reference "REF**" (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "FUSE" (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad "1" smd rect (at -1 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "2" smd rect (at 1 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "" smd rect (at 0 0) (size 1.5 0.1) (layers "F.Cu" "F.Paste" "F.Mask"))
+(footprint "FUSE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "874ac1ad-8909-4fec-affa-96d09a3aa241")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE"
+		(at 0 -1.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3d1a235-6e07-4ec3-8e5a-e44e4d09e25d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee22dc6a-ef9b-4133-87d0-5618cecb4613")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4c4fce2-d724-4b28-a813-10b6fe7324f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9819b248-68f6-4076-bafb-1bfad91264ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "508f916a-ecf0-4032-9db7-287aa37e5c92")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "398d67e7-b21e-4e35-9afb-2a6b91ae3048")
+	)
 )
